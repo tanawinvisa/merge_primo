@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es6", // Or whichever ECMAScript version you are targeting
+      "module": "commonjs", // Or "esnext", "umd", etc., depending on your needs
+      "strict": true,
+      "esModuleInterop": true, // Set to true to enable ES module interop
+      "outDir": "./dist", // Output directory for compiled files
+      "baseUrl": "./",
+      "paths": {
+        "*": ["./src/*"] // Path mapping for module resolution
+      }
+    },
+    "include": ["src/**/*.ts"], // Paths to include for compilation
+    "exclude": ["node_modules"] // Paths to exclude from compilation
+  }
+  
