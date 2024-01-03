@@ -7,6 +7,9 @@ use these command:
 mkdir my-merge-project
 cd my-merge-project
 
+then COPY ALL FILES IN merge-sort folder in my github and PASTE in their
+
+
 Initialize a new Node.js project:
 npm init -y
 
